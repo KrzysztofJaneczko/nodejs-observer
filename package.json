@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-observer",
+  "version": "1.0.0",
+  "description": "A node.js app that visits chosen page every minute and gets desired data.",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack && node build/bundle.js"
+  },
+  "author": "Krzysztof Janeczko",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2017": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "express": "^4.15.2",
+    "fast-html-parser": "^1.0.1",
+    "request": "^2.81.0"
+  }
+}
